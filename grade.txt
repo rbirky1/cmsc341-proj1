@@ -1,0 +1,14 @@
+X      #14 Error in average wait time -5
+X      #15 Error in no. of cars that crossed intersection -3
+X      #16 Error in no. of trucks that crossed intersection -3
+
+All files produce correct number of cars/trucks compared to sample outputs
+Only input2.txt produces a wait time error
+
+
+X   Other errors (specify):
+	Traffic Light change not mentioned: -10
+
+"Please notice in the sample output, WHY the traffic light changed is displayed. This is another debugging tool to help."
+No mention that it is required in OUR output files.  Also not specified in rubric, so it was not a specific criteria
+Why a whole letter grade?

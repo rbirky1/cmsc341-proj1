@@ -1,0 +1,1945 @@
+   SB    2   
+             
+             
+             
+EB    x      
+ 2    c      
+    xc cx    
+      c      
+      x    WB
+            2
+             
+             
+   NB    2   
+at clock:   0
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 2    c      
+    xc cx    
+      c      
+           WB
+            2
+             
+             
+   NB    1   
+at clock:   1
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cx    
+             
+           WB
+            2
+             
+             
+   NB    0   
+at clock:   2
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cx    
+             
+           WB
+            2
+             
+             
+   NB    0   
+at clock:   3
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:   4
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:   5
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 3    c      
+   xxc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:   6
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:   7
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock:   8
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock:   9
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock:  10
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock:  11
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 4    c      
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  12
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  13
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  14
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  15
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  16
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  17
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  18
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  19
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+      c      
+      x    WB
+            8
+             
+             
+   NB    2   
+at clock:  20
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+      t      
+           WB
+            8
+             
+             
+   NB    1   
+at clock:  21
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+      t      
+           WB
+            8
+             
+             
+   NB    1   
+at clock:  22
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  23
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 7    c      
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  24
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 7           
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  25
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 7           
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  26
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 7           
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  27
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 7           
+xxxxxc cxxxxx
+             
+           WB
+           10
+             
+             
+   NB    0   
+at clock:  28
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 7           
+xxxxxc cxxxxx
+             
+           WB
+           10
+             
+             
+   NB    0   
+at clock:  29
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 8    c      
+xxxxxc cxxxxx
+             
+           WB
+           10
+             
+             
+   NB    0   
+at clock:  30
+--------------------------------------
+
+Light has to change. Met minimum length green, other side (EW) is waiting.
+   SB    1   
+             
+             
+             
+EB           
+ 7    c      
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  31
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 6    c      
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  32
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  33
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 4    c      
+  xxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock:  34
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 3    c      
+   xxt cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  35
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 4    c      
+  xxxt cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  36
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 3    c      
+   xxc txxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  37
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 2    c      
+    xc txxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  38
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 1    c      
+     c cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock:  39
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 1    c      
+     t cxxxx 
+      c      
+      x    WB
+            5
+             
+             
+   NB    2   
+at clock:  40
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 1    c      
+     t cxxx  
+      c      
+      x    WB
+            4
+             
+             
+   NB    2   
+at clock:  41
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 1    c      
+     c cxx   
+      c      
+      x    WB
+            3
+             
+             
+   NB    2   
+at clock:  42
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+       cx    
+      c      
+      x    WB
+            2
+             
+             
+   NB    2   
+at clock:  43
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+       tx    
+      c      
+      x    WB
+            2
+             
+             
+   NB    2   
+at clock:  44
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+       tx    
+      c      
+      x    WB
+            2
+             
+             
+   NB    2   
+at clock:  45
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+       c     
+      c      
+      x    WB
+            1
+             
+             
+   NB    2   
+at clock:  46
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+             
+      c      
+      x    WB
+            0
+             
+             
+   NB    2   
+at clock:  47
+--------------------------------------
+
+Light has to change. EW is empty, other side (NS) is primary, try to keep green.
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 1    c      
+     c c     
+      t      
+           WB
+            1
+             
+             
+   NB    1   
+at clock:  48
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 1    c      
+     c c     
+      t      
+           WB
+            1
+             
+             
+   NB    1   
+at clock:  49
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 1    c      
+     c c     
+             
+           WB
+            1
+             
+             
+   NB    0   
+at clock:  50
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 1           
+     c c     
+             
+           WB
+            1
+             
+             
+   NB    0   
+at clock:  51
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 1           
+     c cx    
+             
+           WB
+            2
+             
+             
+   NB    0   
+at clock:  52
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 1           
+     c cx    
+             
+           WB
+            2
+             
+             
+   NB    0   
+at clock:  53
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 2    c      
+    xc cx    
+             
+           WB
+            2
+             
+             
+   NB    0   
+at clock:  54
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cx    
+             
+           WB
+            2
+             
+             
+   NB    0   
+at clock:  55
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:  56
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:  57
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:  58
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock:  59
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 4    c      
+  xxxc cxxxx 
+      c      
+      x    WB
+            5
+             
+             
+   NB    2   
+at clock:  60
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 4    t      
+  xxxc cxxxx 
+      t      
+           WB
+            5
+             
+             
+   NB    1   
+at clock:  61
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 4    t      
+  xxxc cxxxx 
+      t      
+           WB
+            5
+             
+             
+   NB    1   
+at clock:  62
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock:  63
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  64
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  65
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  66
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock:  67
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock:  68
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock:  69
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock:  70
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock:  71
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 6    c      
+xxxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  72
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  73
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  74
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  75
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  76
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 6           
+xxxxxc cxxxxx
+             
+           WB
+            9
+             
+             
+   NB    0   
+at clock:  77
+--------------------------------------
+
+Light has to change. Met minimum length green, other side (EW) is waiting.
+   SB    1   
+             
+             
+             
+EB           
+ 6    c      
+xxxxxc cxxxxx
+             
+           WB
+            8
+             
+             
+   NB    0   
+at clock:  78
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock:  79
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxt cxxxxx
+      c      
+      x    WB
+            8
+             
+             
+   NB    2   
+at clock:  80
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxt txxxxx
+      c      
+      x    WB
+            7
+             
+             
+   NB    2   
+at clock:  81
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 4    c      
+  xxxc txxxxx
+      c      
+      x    WB
+            7
+             
+             
+   NB    2   
+at clock:  82
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 3    c      
+   xxc cxxxxx
+      c      
+      x    WB
+            6
+             
+             
+   NB    2   
+at clock:  83
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 3    c      
+   xxc cxxxxx
+      c      
+      x    WB
+            6
+             
+             
+   NB    2   
+at clock:  84
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 2    c      
+    xt cxxxx 
+      c      
+      x    WB
+            5
+             
+             
+   NB    2   
+at clock:  85
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 2    c      
+    xt cxxx  
+      c      
+      x    WB
+            4
+             
+             
+   NB    2   
+at clock:  86
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 1    c      
+     c cxx   
+      c      
+      x    WB
+            3
+             
+             
+   NB    2   
+at clock:  87
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 0    c      
+       txx   
+      c      
+      x    WB
+            3
+             
+             
+   NB    2   
+at clock:  88
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 0    c      
+       txx   
+      c      
+      x    WB
+            3
+             
+             
+   NB    2   
+at clock:  89
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 1    c      
+     c cx    
+      c      
+      x    WB
+            2
+             
+             
+   NB    2   
+at clock:  90
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+       c     
+      c      
+      x    WB
+            1
+             
+             
+   NB    2   
+at clock:  91
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+       c     
+      c      
+      x    WB
+            1
+             
+             
+   NB    2   
+at clock:  92
+--------------------------------------
+
+   SB    3   
+             
+             
+      x      
+EB    x      
+ 0    c      
+             
+      c      
+      x    WB
+            0
+             
+             
+   NB    2   
+at clock:  93
+--------------------------------------
+
+Light has to change. EW is empty, other side (NS) is primary, try to keep green.
+   SB    2   
+             
+             
+             
+EB    x      
+ 0    c      
+             
+      t      
+           WB
+            0
+             
+             
+   NB    1   
+at clock:  94
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 0    c      
+             
+      t      
+           WB
+            0
+             
+             
+   NB    1   
+at clock:  95
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 1    c      
+     c c     
+             
+           WB
+            1
+             
+             
+   NB    0   
+at clock:  96
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 1           
+     c c     
+             
+           WB
+            1
+             
+             
+   NB    0   
+at clock:  97
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 1           
+     c c     
+             
+           WB
+            1
+             
+             
+   NB    0   
+at clock:  98
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 1           
+     c c     
+             
+           WB
+            1
+             
+             
+   NB    0   
+at clock:  99
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+      c      
+      x    WB
+            3
+             
+             
+   NB    2   
+at clock: 100
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 2           
+    xc cxx   
+      t      
+           WB
+            3
+             
+             
+   NB    1   
+at clock: 101
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 3    c      
+   xxc cxx   
+      t      
+           WB
+            3
+             
+             
+   NB    1   
+at clock: 102
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxx   
+             
+           WB
+            3
+             
+             
+   NB    0   
+at clock: 103
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock: 104
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock: 105
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock: 106
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 3           
+   xxc cxxx  
+             
+           WB
+            4
+             
+             
+   NB    0   
+at clock: 107
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 4    c      
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock: 108
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock: 109
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock: 110
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxx 
+             
+           WB
+            5
+             
+             
+   NB    0   
+at clock: 111
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock: 112
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 4           
+  xxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock: 113
+--------------------------------------
+
+   SB    1   
+             
+             
+             
+EB           
+ 5    c      
+ xxxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock: 114
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            6
+             
+             
+   NB    0   
+at clock: 115
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock: 116
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock: 117
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock: 118
+--------------------------------------
+
+   SB    0   
+             
+             
+             
+EB           
+ 5           
+ xxxxc cxxxxx
+             
+           WB
+            7
+             
+             
+   NB    0   
+at clock: 119
+--------------------------------------
+
+   SB    2   
+             
+             
+             
+EB    x      
+ 7    c      
+xxxxxc cxxxxx
+      c      
+      x    WB
+            9
+             
+             
+   NB    2   
+at clock: 120
+--------------------------------------
+%%%%%%%%%%%
+The final results are:
+The number of vehicles that passed through the intersection is: 84 
+The number of cars that passed through the intersection is: 70 
+The number of trucks that passed through the intersection is: 14 
+The average wait time for this intersection is: 11.309524 

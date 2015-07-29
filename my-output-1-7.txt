@@ -1,0 +1,1210 @@
+North: c c 
+	NB: 2
+South: c c 
+	SB: 2
+East: c c 
+	EB: 2
+West: c c 
+	WB: 2
+at clock: 0
+------------------
+North: c 
+	NB: 1
+South: c 
+	SB: 1
+East: c c 
+	EB: 2
+West: c c 
+	WB: 2
+at clock: 1
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c 
+	EB: 2
+West: c c 
+	WB: 2
+at clock: 2
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c 
+	EB: 2
+West: c c 
+	WB: 2
+at clock: 3
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c 
+	WB: 2
+at clock: 4
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c 
+	WB: 2
+at clock: 5
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c 
+	EB: 3
+West: c c c 
+	WB: 3
+at clock: 6
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c c 
+	WB: 3
+at clock: 7
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c 
+	EB: 4
+West: c c c 
+	WB: 3
+at clock: 8
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c 
+	EB: 4
+West: c c c 
+	WB: 3
+at clock: 9
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c 
+	EB: 4
+West: c c c 
+	WB: 3
+at clock: 10
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c 
+	EB: 4
+West: c c c 
+	WB: 3
+at clock: 11
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c c 
+	EB: 5
+West: c c c c 
+	WB: 4
+at clock: 12
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c 
+	EB: 5
+West: c c c c 
+	WB: 4
+at clock: 13
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c 
+	EB: 5
+West: c c c c 
+	WB: 4
+at clock: 14
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c 
+	EB: 5
+West: c c c c 
+	WB: 4
+at clock: 15
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c 
+	EB: 6
+West: c c c c 
+	WB: 4
+at clock: 16
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c 
+	EB: 6
+West: c c c c 
+	WB: 4
+at clock: 17
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c c c 
+	EB: 6
+West: c c c c c 
+	WB: 5
+at clock: 18
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c 
+	EB: 6
+West: c c c c c 
+	WB: 5
+at clock: 19
+------------------
+North: c t 
+	NB: 2
+South: 
+	SB: 0
+East: c c c c c c c t 
+	EB: 8
+West: c c c c c t 
+	WB: 6
+at clock: 20
+------------------
+North: t 
+	NB: 1
+South: 
+	SB: 0
+East: c c c c c c c t 
+	EB: 8
+West: c c c c c t 
+	WB: 6
+at clock: 21
+------------------
+North: t 
+	NB: 1
+South: 
+	SB: 0
+East: c c c c c c c t 
+	EB: 8
+West: c c c c c t 
+	WB: 6
+at clock: 22
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c c t 
+	EB: 8
+West: c c c c c t 
+	WB: 6
+at clock: 23
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c c c c t c 
+	EB: 9
+West: c c c c c t c 
+	WB: 7
+at clock: 24
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c c t c 
+	EB: 9
+West: c c c c c t c 
+	WB: 7
+at clock: 25
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c c t c 
+	EB: 9
+West: c c c c c t c 
+	WB: 7
+at clock: 26
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c c t c 
+	EB: 9
+West: c c c c c t c 
+	WB: 7
+at clock: 27
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c c t c c 
+	EB: 10
+West: c c c c c t c 
+	WB: 7
+at clock: 28
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c c c c t c c 
+	EB: 10
+West: c c c c c t c 
+	WB: 7
+at clock: 29
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c c c c t c c 
+	EB: 10
+West: c c c c c t c c 
+	WB: 8
+at clock: 30
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c c c t c c 
+	EB: 9
+West: c c c c t c c 
+	WB: 7
+at clock: 31
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c c t c c c 
+	EB: 9
+West: c c c t c c 
+	WB: 6
+at clock: 32
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c t c c c 
+	EB: 8
+West: c c t c c 
+	WB: 5
+at clock: 33
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c t c c c 
+	EB: 7
+West: c t c c 
+	WB: 4
+at clock: 34
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c t c c c 
+	EB: 6
+West: t c c 
+	WB: 3
+at clock: 35
+------------------
+North: 
+	NB: 0
+South: c c 
+	SB: 2
+East: c t c c c c 
+	EB: 6
+West: t c c c 
+	WB: 4
+at clock: 36
+------------------
+North: 
+	NB: 0
+South: c c 
+	SB: 2
+East: t c c c c 
+	EB: 5
+West: c c c 
+	WB: 3
+at clock: 37
+------------------
+North: 
+	NB: 0
+South: c c 
+	SB: 2
+East: t c c c c 
+	EB: 5
+West: c c 
+	WB: 2
+at clock: 38
+------------------
+North: 
+	NB: 0
+South: c c 
+	SB: 2
+East: c c c c 
+	EB: 4
+West: c 
+	WB: 1
+at clock: 39
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: c c c c t 
+	EB: 5
+West: t 
+	WB: 1
+at clock: 40
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: c c c t 
+	EB: 4
+West: t 
+	WB: 1
+at clock: 41
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: c c t 
+	EB: 3
+West: c 
+	WB: 1
+at clock: 42
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: c t 
+	EB: 2
+West: 
+	WB: 0
+at clock: 43
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: t c 
+	EB: 2
+West: 
+	WB: 0
+at clock: 44
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: t c 
+	EB: 2
+West: 
+	WB: 0
+at clock: 45
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: c 
+	EB: 1
+West: 
+	WB: 0
+at clock: 46
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: 
+	EB: 0
+West: 
+	WB: 0
+at clock: 47
+------------------
+North: t 
+	NB: 1
+South: c c c 
+	SB: 3
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 48
+------------------
+North: t 
+	NB: 1
+South: c c 
+	SB: 2
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 49
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 50
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 51
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c 
+	EB: 2
+West: c 
+	WB: 1
+at clock: 52
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c 
+	EB: 2
+West: c 
+	WB: 1
+at clock: 53
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c 
+	EB: 2
+West: c c 
+	WB: 2
+at clock: 54
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c 
+	EB: 2
+West: c c 
+	WB: 2
+at clock: 55
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c 
+	WB: 2
+at clock: 56
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c 
+	WB: 2
+at clock: 57
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c 
+	WB: 2
+at clock: 58
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c 
+	EB: 3
+West: c c 
+	WB: 2
+at clock: 59
+------------------
+North: c t 
+	NB: 2
+South: c t 
+	SB: 2
+East: c c c c t 
+	EB: 5
+West: c c c t 
+	WB: 4
+at clock: 60
+------------------
+North: t 
+	NB: 1
+South: t 
+	SB: 1
+East: c c c c t 
+	EB: 5
+West: c c c t 
+	WB: 4
+at clock: 61
+------------------
+North: t 
+	NB: 1
+South: t 
+	SB: 1
+East: c c c c t 
+	EB: 5
+West: c c c t 
+	WB: 4
+at clock: 62
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t 
+	EB: 5
+West: c c c t 
+	WB: 4
+at clock: 63
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c 
+	EB: 6
+West: c c c t 
+	WB: 4
+at clock: 64
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c 
+	EB: 6
+West: c c c t 
+	WB: 4
+at clock: 65
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c t c 
+	EB: 6
+West: c c c t c 
+	WB: 5
+at clock: 66
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c 
+	EB: 6
+West: c c c t c 
+	WB: 5
+at clock: 67
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c 
+	EB: 7
+West: c c c t c 
+	WB: 5
+at clock: 68
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c 
+	EB: 7
+West: c c c t c 
+	WB: 5
+at clock: 69
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c 
+	EB: 7
+West: c c c t c 
+	WB: 5
+at clock: 70
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c 
+	EB: 7
+West: c c c t c 
+	WB: 5
+at clock: 71
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c c t c c c 
+	EB: 8
+West: c c c t c c 
+	WB: 6
+at clock: 72
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c c 
+	EB: 8
+West: c c c t c c 
+	WB: 6
+at clock: 73
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c c 
+	EB: 8
+West: c c c t c c 
+	WB: 6
+at clock: 74
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c c 
+	EB: 8
+West: c c c t c c 
+	WB: 6
+at clock: 75
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c c c 
+	EB: 9
+West: c c c t c c 
+	WB: 6
+at clock: 76
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c c c t c c c c 
+	EB: 9
+West: c c c t c c 
+	WB: 6
+at clock: 77
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c c t c c c c 
+	EB: 8
+West: c c t c c c 
+	WB: 6
+at clock: 78
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c t c c c c 
+	EB: 7
+West: c t c c c 
+	WB: 5
+at clock: 79
+------------------
+North: c t 
+	NB: 2
+South: c 
+	SB: 1
+East: c t c c c c c t 
+	EB: 8
+West: t c c c t 
+	WB: 5
+at clock: 80
+------------------
+North: c t 
+	NB: 2
+South: c 
+	SB: 1
+East: t c c c c c t 
+	EB: 7
+West: t c c c t 
+	WB: 5
+at clock: 81
+------------------
+North: c t 
+	NB: 2
+South: c 
+	SB: 1
+East: t c c c c c t 
+	EB: 7
+West: c c c t 
+	WB: 4
+at clock: 82
+------------------
+North: c t 
+	NB: 2
+South: c 
+	SB: 1
+East: c c c c c t 
+	EB: 6
+West: c c t 
+	WB: 3
+at clock: 83
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: c c c c t c 
+	EB: 6
+West: c t c 
+	WB: 3
+at clock: 84
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: c c c t c 
+	EB: 5
+West: t c 
+	WB: 2
+at clock: 85
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: c c t c 
+	EB: 4
+West: t c 
+	WB: 2
+at clock: 86
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: c t c 
+	EB: 3
+West: c 
+	WB: 1
+at clock: 87
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: t c c 
+	EB: 3
+West: 
+	WB: 0
+at clock: 88
+------------------
+North: c t 
+	NB: 2
+South: c c 
+	SB: 2
+East: t c c 
+	EB: 3
+West: 
+	WB: 0
+at clock: 89
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: c c 
+	EB: 2
+West: c 
+	WB: 1
+at clock: 90
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: c 
+	EB: 1
+West: 
+	WB: 0
+at clock: 91
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: c 
+	EB: 1
+West: 
+	WB: 0
+at clock: 92
+------------------
+North: c t 
+	NB: 2
+South: c c c 
+	SB: 3
+East: 
+	EB: 0
+West: 
+	WB: 0
+at clock: 93
+------------------
+North: t 
+	NB: 1
+South: c c 
+	SB: 2
+East: 
+	EB: 0
+West: 
+	WB: 0
+at clock: 94
+------------------
+North: t 
+	NB: 1
+South: c 
+	SB: 1
+East: 
+	EB: 0
+West: 
+	WB: 0
+at clock: 95
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 96
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 97
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 98
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c 
+	EB: 1
+West: c 
+	WB: 1
+at clock: 99
+------------------
+North: c t 
+	NB: 2
+South: 
+	SB: 0
+East: c c t 
+	EB: 3
+West: c t 
+	WB: 2
+at clock: 100
+------------------
+North: t 
+	NB: 1
+South: 
+	SB: 0
+East: c c t 
+	EB: 3
+West: c t 
+	WB: 2
+at clock: 101
+------------------
+North: t 
+	NB: 1
+South: c 
+	SB: 1
+East: c c t 
+	EB: 3
+West: c t c 
+	WB: 3
+at clock: 102
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t 
+	EB: 3
+West: c t c 
+	WB: 3
+at clock: 103
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c 
+	EB: 4
+West: c t c 
+	WB: 3
+at clock: 104
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c 
+	EB: 4
+West: c t c 
+	WB: 3
+at clock: 105
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c 
+	EB: 4
+West: c t c 
+	WB: 3
+at clock: 106
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c 
+	EB: 4
+West: c t c 
+	WB: 3
+at clock: 107
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c t c c 
+	EB: 5
+West: c t c c 
+	WB: 4
+at clock: 108
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c 
+	EB: 5
+West: c t c c 
+	WB: 4
+at clock: 109
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c 
+	EB: 5
+West: c t c c 
+	WB: 4
+at clock: 110
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c 
+	EB: 5
+West: c t c c 
+	WB: 4
+at clock: 111
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c 
+	EB: 6
+West: c t c c 
+	WB: 4
+at clock: 112
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c 
+	EB: 6
+West: c t c c 
+	WB: 4
+at clock: 113
+------------------
+North: 
+	NB: 0
+South: c 
+	SB: 1
+East: c c t c c c 
+	EB: 6
+West: c t c c c 
+	WB: 5
+at clock: 114
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c 
+	EB: 6
+West: c t c c c 
+	WB: 5
+at clock: 115
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c c 
+	EB: 7
+West: c t c c c 
+	WB: 5
+at clock: 116
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c c 
+	EB: 7
+West: c t c c c 
+	WB: 5
+at clock: 117
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c c 
+	EB: 7
+West: c t c c c 
+	WB: 5
+at clock: 118
+------------------
+North: 
+	NB: 0
+South: 
+	SB: 0
+East: c c t c c c c 
+	EB: 7
+West: c t c c c 
+	WB: 5
+at clock: 119
+------------------
+North: c t 
+	NB: 2
+South: c t 
+	SB: 2
+East: c c t c c c c c t 
+	EB: 9
+West: c t c c c c t 
+	WB: 7
+at clock: 120
+------------------

@@ -1,0 +1,6 @@
+N: 10 10
+S: 10 10
+E: 10 10
+W: 10 10
+
+// 1 car and truck per 6 seconds

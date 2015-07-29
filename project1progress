@@ -1,0 +1,1496 @@
+/**
+ * This class represents a Linked List: a collection
+ *   of nodes connected by memory addresses
+ * 
+ * @version 02.11.2014
+ * @author Rachael Birky <rbirky1@umbc.edu>
+ * 
+ * CMSC 341 - Spring 2014 - Project 1
+ * Section 01
+ */
+public class LinkedList<T> {
+
+	private Node headNode;
+	private Node tailNode;
+	private int numNodes;
+	
+	/**
+	 * This class represents a Node containing
+	 *   information and the memory address of
+	 *   its child node
+	 * 
+	 * @version 02.11.2014
+	 * @author Rachael Birky <rbirky1@umbc.edu>
+	 * 
+	 * CMSC 341 - Spring 2014 - Project 1
+	 * Section 01
+	 */
+	public class Node<T>{
+		private T item;
+		private Node<T> childNode;
+		private Node<T> parentNode;
+		
+		/**
+		 * Node constructor
+		 *
+		 * @param aInfo: an object of type <T> (any type)
+		 * @return none
+		 */
+		public Node(T item, Node<T> aChild){
+			this.item = item;
+			this.childNode = aChild;
+		}
+		
+		public boolean hasChild(){
+			if (this.childNode == null) return false;
+			else return true;
+		}
+	}
+	
+	public LinkedList(){
+		
+	}
+	
+	public void addNode(T item){
+		//If no head Node, add new item as head
+		if (this.headNode == null){
+			headNode = new Node<T>(item, null);
+		}
+		//Add item to end of list
+		else{
+			Node<T> tempNode = headNode;
+			
+			//Iterate until a Node with a null child is found
+			while (tempNode.childNode != null)
+				tempNode = tempNode.childNode;
+			
+			//Add new item as last Node with a null child
+			tempNode.childNode = new Node<T>(item, null);
+		}
+		//Increment list node counter
+		this.numNodes++;
+	}
+	
+
+}
+
+/*Node temp = head;
+		
+		while (temp.child.child != null){
+			temp = temp.child;
+		}
+		T returnItem = temp.getItem();
+		temp.child = null;
+		return (T) returnItem;
+		//return temp.getItem();*/
+
+
+
+A ConcurrentLinkedQueue is an appropriate choice when many threads will share access to a common collection. This queue does not permit null elements.
+
+ArrayBlockingQueue is a classic "bounded buffer", in which a fixed-sized array holds elements inserted by producers and extracted by consumers. This class supports an optional fairness policy for ordering waiting producer and consumer threads
+
+LinkedBlockingQueue typically have higher throughput than array-based queues but less predictable performance in most concurrent applications.
+
+ArrayBlockingQueue is a queue of a fixed size. So if you set the size at 10, and attempt to insert an 11th element, the insert statement will block until another thread removes an element. The fairness issue is what happens if multiple threads try to insert and remove at the same time (in other words during the period when the Queue was blocked). A fairness algorithm ensures that the first thread that asks is the first thread that gets. Otherwise, a given thread may wait longer than other threads, causing unpredictable behavior (sometimes one thread will just take several seconds because other threads that started later got processed first). The trade-off is that it takes overhead to manage the fairness, slowing down the throughput.
+
+The most important difference between LinkedBlockingQueue and ConcurrentLinkedQueue is that if you request an element from a LinkedBlockingQueue and the queue is empty, your thread will wait until there is something there. A ConcurrentLinkedQueue will return right away with the behavior of an empty queue.
+
+
+
+
+tokenizer.hasMoreTokens( );•	determines if more “tokens” in the String•	used usually in a conditional loopString word = tokenizer.nextToken( );•	grabs next token, assigns to “word”•	records last place it grabbed a wordint count = tokenizer.countTokens( );•	returns the number of tokens remaining to be returned by NEXTTOKEN( )
+
+
+
+/*while (infile.hasNextLine()){
+			String line = infile.nextLine();
+			System.out.println(line);
+			StringTokenizer tokenizer = new StringTokenizer(line);
+			
+			//Initialize Queues
+			
+			//for loops i<given numbers for cars and trucks
+			
+			//System.out.println(tokenizer.nextToken());
+		}*///Remove String token indicating direction
+					tokenizer.nextToken();
+					//Add appropriate number of cars
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						northbound.add(new Vehicle('c',1));
+					}
+					//Add appropriate number of trucks
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						northbound.add(new Vehicle('t',2));
+					}
+
+
+//Remove String token indicating direction
+					tokenizer.nextToken();
+					//Add appropriate number of cars
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						southbound.add(new Vehicle('c',1));
+					}
+					//Add appropriate number of trucks
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						southbound.add(new Vehicle('t',2));
+					}
+
+
+
+
+//Remove String token indicating direction
+					tokenizer.nextToken();
+					//Add appropriate number of cars
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						eastbound.add(new Vehicle('c',1));
+					}
+					//Add appropriate number of trucks
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						eastbound.add(new Vehicle('t',2));
+					}
+
+
+
+
+//Remove String token indicating direction
+					tokenizer.nextToken();
+					//Add appropriate number of cars
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						westbound.add(new Vehicle('c',1));
+					}
+					//Add appropriate number of trucks
+					for (int j=0; j< Integer.parseInt(tokenizer.nextToken()); j++){
+						westbound.add(new Vehicle('t',2));
+					}
+
+
+
+
+
+		/*//gather info
+		for (int i=0; i<4; i++){
+			
+			//Get next line
+			String line = infile.nextLine();
+			
+			//Initialize appropriate Queue according to iteration
+			switch (i){
+				case 0:
+					//Fill northbound queue
+					//Initialize queue
+					northbound = new PriorityQueue<Vehicle>();
+					//Pass queue to fillQueue() method
+					fillQueue(northbound, line);
+					break;
+				case 1:
+					//Fill southbound queue
+					southbound = new PriorityQueue<Vehicle>();
+					fillQueue(southbound, line);
+					break;
+				case 2:
+					//Fill eastbound queue
+					eastbound = new PriorityQueue<Vehicle>();
+					fillQueue(eastbound, line);
+					break;
+				case 3:
+					//Fill westbound queue
+					westbound = new PriorityQueue<Vehicle>();
+					fillQueue(westbound, line);
+					break;
+			}
+		}*/
+
+
+
+/*public void fillQueue(PriorityQueue<Vehicle> aQueue, String line){
+		StringTokenizer tokenizer = new StringTokenizer(line);
+		tokenizer.nextToken();
+		for (int i=0; i<Integer.parseInt(tokenizer.nextToken()); i++){
+			aQueue.add(new Vehicle('c',1));
+		}
+		for (int j=0; j<Integer.parseInt(tokenizer.nextToken()); j++){
+			aQueue.add(new Vehicle('t',2));
+		}
+}*/
+
+
+String line = infile.nextLine();
+		
+		StringTokenizer tokenizer = new StringTokenizer(line);
+		
+		System.out.println(line);
+		//System.out.println(tokenizer.nextToken());
+		System.out.println(tokenizer.nextToken().charAt(0));
+
+
+			/*int numCars = Integer.parseInt(tokenizer.nextToken());
+			for (int i=0; i<numCars; i++){
+				addVehicle(direction, new Vehicle('c', 1));
+			}
+			
+			int numTrucks = Integer.parseInt(tokenizer.nextToken());
+			for (int i=0; i<numTrucks; i++){
+				addVehicle(direction, new Vehicle('t', 2));
+			}*/
+
+
+ADD INITIAL CARS
+for (int i=0; i<2; i++){
+			addVehicle('N', new Vehicle('c', time));
+			addVehicle('S', new Vehicle('c', time));
+			addVehicle('W', new Vehicle('c', time));
+			addVehicle('E', new Vehicle('c', time));
+		}
+		
+
+Add Vehicles S/E/W
+			if (time%IntersectionFlowRate.getFlowRate('S', 'c') == 0)
+					addVehicle('S', new Vehicle('c',time));
+			if (time%IntersectionFlowRate.getFlowRate('S', 't') == 0)
+					addVehicle('S', new Vehicle('t',time));
+
+			if (time%IntersectionFlowRate.getFlowRate('W', 'c') == 0)
+				addVehicle('W', new Vehicle('c',time));
+			if (time%IntersectionFlowRate.getFlowRate('W', 't') == 0)
+				addVehicle('W', new Vehicle('t',time));
+			
+			if (time%IntersectionFlowRate.getFlowRate('E', 'c') == 0)
+				addVehicle('E', new Vehicle('c',time));
+			if (time%IntersectionFlowRate.getFlowRate('E', 't') == 0)
+				addVehicle('E', new Vehicle('t',time));
+
+PRINT BOARD
+System.out.println("\tSB\t"+southbound.size());
+		System.out.println("\t");
+
+
+ADD VEHICLES
+if ((double)time%(MINUTE/IntersectionFlowRate.getFlowRate('N', 'c')) == 0)
+				addVehicle('N', new Vehicle('c',time));
+			if ((double)time%(MINUTE/IntersectionFlowRate.getFlowRate('N', 't')) == 0)
+				addVehicle('N', new Vehicle('t',time));
+
+
+
+
+REMOVE VEHICLES
+if (((eastbound.isEmpty() && westbound.isEmpty()) && (NStime < NS_MIN)) || ((EWtime > EW_MAX) && (EWtime > EW_MIN))){
+				EWtime = 0;
+				activateNorthSouth();
+				NStime++;
+			}
+			else{
+				NStime = 0;
+				activateNorthSouth();
+				EWtime++;
+			}
+
+	public boolean hasTraffic(Queue<Vehicle> lane1, Queue<Vehicle> lane2){
+		return (!lane1.isEmpty() ||;
+	}
+
+
+			//EW greater than max
+			if (EWtime >= EW_MAX){
+				EWtime = 0;
+				NStime++;
+				activateNorthSouth();
+			}
+			//Traffic in NS and EW greater than minimum but less
+			else if (!northbound.isEmpty() || !eastbound.isEmpty()){
+				EWtime = 0;
+				NStime++;
+				activateNorthSouth();
+			}
+			//Traffic in EW and NS greater than minimum
+			else if (((!eastbound.isEmpty() || !westbound.isEmpty()) && (NStime >= NS_MIN))){
+				NStime = 0;
+				EWtime++;
+				activateEastWest();
+			}
+			else if (EWtime <= EW_MIN){
+				NStime = 0;
+				EWtime++;
+				activateEastWest();
+			}
+			else{
+				EWtime = 0;
+				NStime++;
+				activateNorthSouth();
+			}
+
+
+NEW
+//Calculate Lanes to be emptied ****WORKING HERE****
+			if (EWtime >= EW_MAX){
+				activateNorthSouth();
+			}
+			else if ((hasTraffic(eastbound) || hasTraffic(westbound))){
+				if (NStime >= NS_MIN)
+					activateEastWest();
+				else
+					activateNorthSouth();
+			}
+			else if ((hasTraffic(northbound) || hasTraffic(southbound))){
+				if (EWtime >= EW_MIN)
+					activateNorthSouth();
+				else
+					activateEastWest();
+			}
+			else
+				activateNorthSouth();
+
+
+//keeping track of which light is on
+		if (NS_active)
+			NStime++;
+		else
+			NStime = 1;
+
+
+//Almost works!  But keeps EW activated when NS is @ clock 47+
+if (EWtime >= EW_MAX){
+				activateNorthSouth();
+			}
+			else if ((hasTraffic(eastbound) || hasTraffic(westbound))){
+				if (NStime >= NS_MIN){
+					activateEastWest();
+				}
+				else
+					activateNorthSouth();
+			}
+			else if ((hasTraffic(northbound) || hasTraffic(southbound))){
+				if (EWtime >= EW_MIN){
+					activateNorthSouth();
+				}
+				/*else
+					activateEastWest();*/
+			}
+
+//FORMER printboard
+//NORTH
+		System.out.print("North: ");
+		for (Vehicle y : northbound){
+			System.out.print(y.getType() + " ");
+			}
+		System.out.print("\n\tNB: "+northbound.size());
+		
+		System.out.println();
+		
+		//SOUTH
+		System.out.print("South: ");
+		for (Vehicle y : southbound){
+			System.out.print(y.getType() + " ");
+			}
+		System.out.print("\n\tSB: "+southbound.size());
+		
+		System.out.println();
+		
+		//EAST
+		System.out.print("East: ");
+		for (Vehicle y : eastbound){
+			System.out.print(y.getType() + " ");
+			}
+		System.out.print("\n\tEB: "+eastbound.size());
+		
+		System.out.println();
+		
+		//WEST
+		System.out.print("West: ");
+		for (Vehicle y : westbound){
+			System.out.print(y.getType() + " ");
+			}
+		System.out.print("\n\tWB: "+westbound.size());
+		
+		System.out.println();
+		System.out.println("at clock: " + time);
+		System.out.println("------------------");
+
+
+
+//ATTEMPT 1
+		System.out.println("EB");
+		System.out.println(" "+eastbound.size());
+
+		//Copy first six items (Vehicles) in each Queue to an array
+		Vehicle[] eastboundArray = eastbound.toArray(new Vehicle[6]);
+		Vehicle[] southboundArray =southbound.toArray(new Vehicle[6]);
+		char[] eastboundPrintArray = new char[6];
+		char[] southboundPrintArray = new char[6];
+		
+		//Reverse order eastbound and northbound and store type in a char array
+		for (int i=5; i>0; i--){
+			if (eastboundArray[i]!=null)
+				eastboundPrintArray[i] = eastboundArray[i].getType();
+			else
+				eastboundPrintArray[i] = ' ';
+			if (southboundArray[i]!=null)
+				southboundPrintArray[i] = southboundArray[i].getType();
+			else
+				southboundPrintArray[i] = ' ';
+		}
+		
+		//Print vertically aligned reverse order southbound
+		/*for (int i=5; i>=0; i--){
+			if (i==1)
+				System.out.print("EB\t"+southboundPrintArray[i]+"\n");
+			if (i==0)
+				System.out.print(" "+eastbound.size()+"\t"+southboundPrintArray[i]+"\n");
+			else
+				System.out.print("\t\t"+southboundPrintArray[i]+"\n");
+		}*/
+		
+		//Middle row of characters
+		//Reverse ordered eastbound; space; ordered westbound
+		for (char e : eastboundPrintArray){
+			System.out.print(e);
+		}
+		System.out.print(" ");
+		for (int i=0; i<6; i++){
+			System.out.print(westbound.element().getType());
+		}
+		
+		//Print vertically aligned ordered northbound
+		for (int i=0; i<6; i++){
+			System.out.print("\n\t"+northbound.element().getType());
+			if (i==2)
+				System.out.print("\tWB");
+			if (i==3)
+				System.out.print("\t"+westbound.size());
+		}
+
+
+	/*@SuppressWarnings({ "hiding", "unused" })
+	private class Iterator<T> implements java.util.Iterator<T> {
+		Node<T> current = (Node<T>) head.child;
+		
+		@Override
+		public T next() {
+			if (!hasNext())
+				throw new java.util.NoSuchElementException();
+			T next = current.child.item;
+			current = current.child;
+			return next;
+		}
+
+		@Override
+		public void remove() {
+			
+		}
+
+		@Override
+		public boolean hasNext() {
+			return current.child==null;
+		}
+	}*/
+
+
+
+public class LinkedList<T> implements ListADT<T> {
+    ... stuff
+
+    private class MyIterator<T> implements Iterator<T> {
+        //It's best practice to explicitly store the head in the iterator
+        private LinearNode<T> head;
+
+        public MyIterator<T>(LinkedList<T>) {
+            ...
+        }
+
+        @Override
+        public boolean hasNext() {
+            ...
+        }
+
+        @Override
+        public T next() {
+            ...
+        }
+
+        @Override
+        public void remove() {
+            ...
+        }
+    }
+
+    public Iterator<T> iterator() {
+         return new MyIterator<T>(this);
+    }
+} 
+
+
+//WORKS I THINK
+			
+			if ((hasTraffic(eastbound) || hasTraffic(westbound))){
+				if (NStime >= NS_MIN){
+					activateEastWest();
+				}
+				else
+					activateNorthSouth();
+			}
+			else if ((hasTraffic(northbound) || hasTraffic(southbound))){
+				if (EWtime >= EW_MIN){
+					activateNorthSouth();
+				}
+				else
+					activateEastWest();
+			}
+			else if (EWtime >= EW_MAX){
+				activateNorthSouth();
+			}
+
+//OLD ITERATOR
+	public boolean hasNext(){
+		return current.child==null;
+	}
+	
+	public T next(){
+		if (!hasNext()){
+			throw new java.util.NoSuchElementException();
+		}
+		T next = current.child.item;
+		current = current.child;
+		return next;
+	}
+
+
+//VERSION 7
+package Project1;
+
+import java.io.*;
+import java.util.*;
+
+/**
+ * @name TrafficSim
+ * @author Rachael Birky
+ * @Section 01
+ * @date 02.20.2014
+ *
+ * @description A class that simulates the flow of a four-way traffic light
+ * 				intersection given an input file of traffic lane flow rates by
+ * 				printing the state of the intersection at each simulated second
+ * 				to the console.
+ * 
+ * 				North/South
+ *				a.	Primary – meaning we want this to be “green” as much as possible.
+ *					If East/West does not have traffic, then North/South will STAY “green”
+ *				b.	Will always be “green” together
+ *				c.	Minimally “green” for 30 seconds each time it turns green
+ *				d.	There is no maximum value for how long it stays green
+ *				e.	The simulation will ALWAYS start with North/South being “green”
+ *				
+ *				East/West
+ *				a.	Maximally “green” for 30 seconds
+ *				b.	Minimally “green” for 10 seconds
+ *				c.	Will turn “red” early if no traffic on either East/West side
+ *
+ * @instancevariable	northbound, southbound, eastbound, westbound: queues representing
+ * 						the four lanes of traffic
+ * @instancevariable	results: a LinkedList of vehicles that have successfully exited the intersection
+ * 
+ * @instancevariable	time: an integer primitive representing the simulated time in seconds
+ * 
+ * @instancevariable	NStime: an integer primitive representing the amount of time, in simulated seconds,
+ * 						that the north and south lanes have been activated
+ * @instancevariable	EWtime: an integer primitive representing the amount of time, in simulated seconds,
+ * 						that the east and west lanes have been activated
+ * 
+ * @instancevariable	EW_MAX: a constant integer primitive representing the maximum time in simulated 
+ * 						seconds that the east and west lanes can be active
+ * @instancevariable	EW_MIN: a constant integer primitive representing the maximum time in simulated 
+ * 						seconds that the east and west lanes must be active
+ * @instancevariable	NS_MIN: a constant integer primitive representing the maximum time in simulated 
+ * 						seconds that the north and south lanes must be active
+ * 
+ * @instancevariable	MINUTE: a constant double primitive representing the value of a minute in
+ * 						simulated seconds for this specific program
+ * @instancevariable	SIM_TIME: a constant integer primitive representing the amount of time
+ * 						the simulation runs in simulated seconds (2 minutes = 121 second including the
+ * 						zeroth second 
+ * 
+ * @instancevariable	NSactive: a boolean value that stores whether or not the north and south
+ * 						lanes are active
+ * @instancevariable	EWactive: a boolean value that stores whether or not the east and west
+ * 						lanes are active
+ *  
+ */
+public class TrafficSim {
+	
+	Scanner infile;
+	
+	private Queue<Vehicle> northbound;
+	private Queue<Vehicle> southbound;
+	private Queue<Vehicle> eastbound;
+	private Queue<Vehicle> westbound;
+	private LinkedList<Vehicle> results;
+	
+	private int time;
+	
+	private int NStime;
+	private int EWtime;
+	
+	private int EW_MAX = 30;
+	private int EW_MIN = 10;
+	private int NS_MIN = 30;
+	
+	private double MINUTE = 60.0;
+	private int SIM_TIME = 121;
+	
+	private boolean NSactive = true;
+	private boolean EWactive = false;
+
+	/**
+	 * @name TrafficSim
+	 * @description Constructor method. This method records the data
+	 * 				from the input file and runs the simulation accordingly
+	 * 
+	 * @param aFile: the input file to be read and parsed
+	 */
+	public TrafficSim(String aFile){
+		
+		//Initialize Queues
+		northbound = new java.util.LinkedList<Vehicle>();
+		southbound = new java.util.LinkedList<Vehicle>();
+		eastbound = new java.util.LinkedList<Vehicle>();
+		westbound = new java.util.LinkedList<Vehicle>();
+		
+		//Initialize Custom LinkedList
+		results = new LinkedList<Vehicle>();
+		
+		//Read and record input file information
+		readFromFile(aFile);
+		
+		//initialize times
+		time = 0;
+		NStime = 0;
+		EWtime = 0;		
+		
+		//Add first two cars for each direction for time 0
+		for (int i=0; i<2; i++){
+			addVehicle('N', new Vehicle('c', time));
+			addVehicle('S', new Vehicle('c', time));
+			addVehicle('W', new Vehicle('c', time));
+			addVehicle('E', new Vehicle('c', time));
+		}
+		
+		northbound.element().setHeadTime(time);
+		southbound.element().setHeadTime(time);
+		eastbound.element().setHeadTime(time);
+		westbound.element().setHeadTime(time);
+		
+		//Print initial board
+		printBoard();
+
+		time++;
+		
+		//Loop 120 times; increment time; print board
+		while(time < SIM_TIME) {
+				
+			//Calculate Lanes to be emptied ****WORKING HERE****
+			//East and West truck
+			if (EWtime >= EW_MAX){
+				activateNorthSouth();
+			}
+			else if ((hasTraffic(eastbound) || hasTraffic(westbound))){
+				if (NStime >= NS_MIN){
+					activateEastWest();
+				}
+				else
+					activateNorthSouth();
+			}
+			else if ((hasTraffic(northbound) || hasTraffic(southbound))){
+				if (EWtime >= EW_MIN){
+					activateNorthSouth();
+				}
+				else
+					activateEastWest();
+			}
+			else
+				activateNorthSouth();
+
+			
+			//Calculate when to add cars and add appropriate number of cars
+			addVehicles();
+			
+			//Print board and increment time
+			printBoard();
+			time++;
+		}
+		
+		printResults();
+	}
+	
+	
+	public void readFromFile(String aFile){
+		try {
+			infile = new Scanner(new FileReader(aFile));
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found.");
+			e.printStackTrace();
+			System.exit(0);
+		}
+		
+		for (int i=0; i<4; i++){
+			String line = infile.nextLine();
+			
+			StringTokenizer tokenizer = new StringTokenizer(line);
+			
+			char direction = tokenizer.nextToken().charAt(0);
+			int carFlowRate = Integer.parseInt(tokenizer.nextToken());
+			int truckFlowRate = Integer.parseInt(tokenizer.nextToken());
+			
+			IntersectionFlowRate.setFlowRate(direction, carFlowRate, truckFlowRate);
+		}
+	}
+	
+	
+	public void addVehicle(char direction, Vehicle x){
+		
+		switch (direction){
+		case 'N':
+			northbound.add(x);
+			break;
+		case 'S':
+			southbound.add(x);
+			break;
+		case 'E':
+			eastbound.add(x);
+			break;
+		case 'W':
+			westbound.add(x);
+			break;
+		default:
+			System.out.println("Incorrect Character.");
+			break;
+		}
+	}
+
+	public void addVehicles(){
+		//NORTH
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('N', 'c')) == 0.0){
+			addVehicle('N', new Vehicle('c', time));
+			if (northbound.size()==1) northbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('N', 't')) == 0.0){
+			addVehicle('N', new Vehicle('t', time));
+			if (northbound.size()==1) northbound.element().setHeadTime(time);
+		}
+		
+		//SOUTH
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('S', 'c')) == 0.0){
+			addVehicle('S', new Vehicle('c', time));
+			if (southbound.size()==1) southbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('S', 't')) == 0.0){
+			addVehicle('S', new Vehicle('t', time));
+			if (southbound.size()==1) southbound.element().setHeadTime(time);
+		}
+		
+		//EAST
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('E', 'c')) == 0.0){
+			addVehicle('E', new Vehicle('c', time));
+			if (eastbound.size()==1) eastbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('E', 't')) == 0.0){
+			addVehicle('E', new Vehicle('t', time));
+			if (eastbound.size()==1) eastbound.element().setHeadTime(time);
+		}
+		
+		//WEST
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('W', 'c')) == 0.0){
+			addVehicle('W', new Vehicle('c', time));
+			if (westbound.size()==1) westbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('W', 't')) == 0.0){
+			addVehicle('W', new Vehicle('t', time));
+			if (westbound.size()==1) westbound.element().setHeadTime(time);
+		}
+	}
+	
+	public boolean hasTraffic(Queue<Vehicle> aQueue){
+		return !aQueue.isEmpty();
+	}
+	
+	public void activateNorthSouth(){
+		EWactive = false;
+		
+		if (NSactive)
+			NStime++;
+		else{
+			NSactive = true;
+			NStime = 1;
+		}
+		
+		//NORTH
+		if (northbound.peek() != null){
+			Vehicle current = northbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = northbound.remove();
+					if (northbound.peek() != null)
+						northbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		//SOUTH
+		if (southbound.peek() != null){
+			Vehicle current = southbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = southbound.remove();
+					if (southbound.peek() != null)
+							southbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		NSactive = true;
+
+	}
+	
+	public void activateEastWest(){
+		NSactive = false;
+		
+		if (EWactive)
+			EWtime++;
+		else{
+			EWactive = true;
+			EWtime = 1;
+		}
+		
+		//EAST
+		if (eastbound.peek() != null){
+			Vehicle current = eastbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = eastbound.remove();
+					if (eastbound.peek() != null)
+						eastbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		//WEST
+		if (westbound.peek() != null){
+			Vehicle current = westbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = westbound.remove();
+					if (westbound.peek() != null)
+						westbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		EWactive = true;
+
+	}
+
+	public void printBoard(){
+		
+		System.out.println();
+		
+		//First line; size of southbound
+		System.out.println("\tSB\t"+southbound.size());
+
+		//Copy Queues into Arrays
+		Vehicle[] southboundArray =southbound.toArray(new Vehicle[6]);
+		Vehicle[] eastboundArray = eastbound.toArray(new Vehicle[6]);
+		Vehicle[] westboundArray = westbound.toArray(new Vehicle[6]);
+		Vehicle[] northboundArray =northbound.toArray(new Vehicle[6]);
+		
+		//use switch statement...?
+		//Reverse ordered southbound
+		//East bound
+		for (int i=5; i>=0; i--){
+			if (i>1){
+				if (southboundArray[i]!=null)
+					System.out.print("\n\tx");
+				else
+					System.out.print("\n");
+			}
+
+			else if (i==1){
+				if (southboundArray[i]!=null)
+					System.out.print("\nEB\tx");
+				else
+					System.out.print("EB");
+			}
+			
+			else if (i==0){
+				if (southboundArray[i]!=null)
+					System.out.print("\n "+eastbound.size()+"\t"+southbound.element().getType());
+				else
+					System.out.print("\n "+eastbound.size());
+			}
+
+		}
+		
+		System.out.println();
+		System.out.print("  ");
+		
+		//Middle row of characters
+		//Reverse ordered eastbound; space; ordered westbound
+		for (int i=5; i>=0; i--){
+			if (eastboundArray[i]!=null){
+				if (i==0)
+					System.out.print(eastboundArray[i].getType());
+				else
+					System.out.print("x");
+			}
+			else System.out.print(" ");
+		}
+		System.out.print(" ");
+		for (int i=0; i<6; i++){
+			if (westboundArray[i]!=null){
+				if (i==0)
+					System.out.print(westboundArray[i].getType());
+				else
+					System.out.print("x");
+			}
+			else System.out.print(" ");
+		}
+
+		//Print ordered northbound
+		//Change WB count to right of northbound items
+		for (int i=0; i<6; i++){
+			if (i>1){
+				if (northboundArray[i]!=null)
+					System.out.print("\n\tx");
+				else
+					System.out.print("\n");
+			}
+
+			else if (i==0){
+				if (northboundArray[i]!=null)
+					System.out.print("\n\t"+northbound.element().getType()+"\tWB");
+				else
+					System.out.print("\n\t\tWB");
+			}
+			
+			else if (i==1){
+				if (northboundArray[i]!=null)
+					System.out.print("\n\tx\t "+westbound.size());
+				else
+					System.out.print("\n\t\t "+westbound.size());
+			}
+
+		}
+		//Last line; size of northbound
+		System.out.println("\n\n\tNB\t"+northbound.size());
+		
+		System.out.println();
+		System.out.println("at clock: " + time);
+		System.out.println("------------------");
+	}
+	
+	//WORKING HERE
+	public int getNumCars(){
+		int numCars = 0;
+		while (results.hasNext()){		
+			if(results.next().getType() == 'c')
+				numCars++;
+		}
+		return numCars;
+	}
+	
+	public int getNumTrucks(){
+		int numTrucks = 0;
+		while (results.hasNext()){		
+			if(results.next().getType() == 't')
+				numTrucks++;
+		}
+		return numTrucks;
+	}
+	
+	public float getAverageWaitTime(){
+		float totalWaitTime = 0;
+		while (results.hasNext()){		
+				totalWaitTime+=results.next().getWaitTime();
+		}
+		return totalWaitTime/results.length();
+	}
+	
+	public void printResults(){
+		System.out.println("The final results are: ");
+		System.out.println("The number of vehicles that passed through the intersection is: "+results.length());
+		System.out.println("The number of cars that passed through the intersection is: " +getNumCars());
+		System.out.println("The number of trucks that passed through the intersection is: " +getNumTrucks());
+		System.out.println("The average wait time for this intersection is: " +getAverageWaitTime());
+		
+	}
+	
+	
+	public static void main(String[] args){
+		TrafficSim x = new TrafficSim("input2.txt");
+	}
+}
+
+
+//VERSION 7
+
+package Project1;
+
+import java.io.*;
+import java.util.*;
+
+/**
+ * @name TrafficSim
+ * @author Rachael Birky
+ * @Section 01
+ * @date 02.20.2014
+ *
+ * @description A class that simulates the flow of a four-way traffic light
+ * 				intersection given an input file of traffic lane flow rates by
+ * 				printing the state of the intersection at each simulated second
+ * 				to the console.
+ * 
+ * 				North/South
+ *				a.	Primary – meaning we want this to be “green” as much as possible.
+ *					If East/West does not have traffic, then North/South will STAY “green”
+ *				b.	Will always be “green” together
+ *				c.	Minimally “green” for 30 seconds each time it turns green
+ *				d.	There is no maximum value for how long it stays green
+ *				e.	The simulation will ALWAYS start with North/South being “green”
+ *				
+ *				East/West
+ *				a.	Maximally “green” for 30 seconds
+ *				b.	Minimally “green” for 10 seconds
+ *				c.	Will turn “red” early if no traffic on either East/West side
+ *
+ * @instancevariable	northbound, southbound, eastbound, westbound: queues representing
+ * 						the four lanes of traffic
+ * @instancevariable	results: a LinkedList of vehicles that have successfully exited the intersection
+ * 
+ * @instancevariable	time: an integer primitive representing the simulated time in seconds
+ * 
+ * @instancevariable	NStime: an integer primitive representing the amount of time, in simulated seconds,
+ * 						that the north and south lanes have been activated
+ * @instancevariable	EWtime: an integer primitive representing the amount of time, in simulated seconds,
+ * 						that the east and west lanes have been activated
+ * 
+ * @instancevariable	EW_MAX: a constant integer primitive representing the maximum time in simulated 
+ * 						seconds that the east and west lanes can be active
+ * @instancevariable	EW_MIN: a constant integer primitive representing the maximum time in simulated 
+ * 						seconds that the east and west lanes must be active
+ * @instancevariable	NS_MIN: a constant integer primitive representing the maximum time in simulated 
+ * 						seconds that the north and south lanes must be active
+ * 
+ * @instancevariable	MINUTE: a constant double primitive representing the value of a minute in
+ * 						simulated seconds for this specific program
+ * @instancevariable	SIM_TIME: a constant integer primitive representing the amount of time
+ * 						the simulation runs in simulated seconds (2 minutes = 121 second including the
+ * 						zeroth second 
+ * 
+ * @instancevariable	NSactive: a boolean value that stores whether or not the north and south
+ * 						lanes are active
+ * @instancevariable	EWactive: a boolean value that stores whether or not the east and west
+ * 						lanes are active
+ *  
+ */
+public class TrafficSim {
+	
+	Scanner infile;
+	
+	private Queue<Vehicle> northbound;
+	private Queue<Vehicle> southbound;
+	private Queue<Vehicle> eastbound;
+	private Queue<Vehicle> westbound;
+	private LinkedList<Vehicle> results;
+	
+	private int time;
+	
+	private int NStime;
+	private int EWtime;
+	
+	private int EW_MAX = 30;
+	private int EW_MIN = 10;
+	private int NS_MIN = 30;
+	
+	private double MINUTE = 60.0;
+	private int SIM_TIME = 121;
+	
+	private boolean NSactive = true;
+	private boolean EWactive = false;
+
+	/**
+	 * @name TrafficSim
+	 * @description Constructor method. This method records the data
+	 * 				from the input file and runs the simulation accordingly
+	 * 
+	 * @param aFile: the input file to be read and parsed
+	 */
+	public TrafficSim(String aFile){
+		
+		//Initialize Queues
+		northbound = new java.util.LinkedList<Vehicle>();
+		southbound = new java.util.LinkedList<Vehicle>();
+		eastbound = new java.util.LinkedList<Vehicle>();
+		westbound = new java.util.LinkedList<Vehicle>();
+		
+		//Initialize Custom LinkedList
+		results = new LinkedList<Vehicle>();
+		
+		//Read and record input file information
+		readFromFile(aFile);
+		
+		//initialize times
+		time = 0;
+		NStime = 0;
+		EWtime = 0;		
+		
+		//Add first two cars for each direction for time 0
+		for (int i=0; i<2; i++){
+			addVehicle('N', new Vehicle('c', time));
+			addVehicle('S', new Vehicle('c', time));
+			addVehicle('W', new Vehicle('c', time));
+			addVehicle('E', new Vehicle('c', time));
+		}
+		
+		northbound.element().setHeadTime(time);
+		southbound.element().setHeadTime(time);
+		eastbound.element().setHeadTime(time);
+		westbound.element().setHeadTime(time);
+		
+		//Print initial board
+		printBoard();
+
+		time++;
+		
+		//Loop 120 times; increment time; print board
+		while(time < SIM_TIME) {
+				
+			//Calculate Lanes to be emptied ****WORKING HERE****
+			//East and West truck
+			if (EWtime >= EW_MAX){
+				activateNorthSouth();
+			}
+			else if ((hasTraffic(eastbound) || hasTraffic(westbound))){
+				if (NStime >= NS_MIN){
+					activateEastWest();
+				}
+				else
+					activateNorthSouth();
+			}
+			else if ((hasTraffic(northbound) || hasTraffic(southbound))){
+				if (EWtime >= EW_MIN){
+					activateNorthSouth();
+				}
+				else
+					activateEastWest();
+			}
+			else
+				activateNorthSouth();
+
+			
+			//Calculate when to add cars and add appropriate number of cars
+			addVehicles();
+			
+			//Print board and increment time
+			printBoard();
+			time++;
+		}
+		
+		printResults();
+	}
+	
+	
+	public void readFromFile(String aFile){
+		try {
+			infile = new Scanner(new FileReader(aFile));
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found.");
+			e.printStackTrace();
+			System.exit(0);
+		}
+		
+		for (int i=0; i<4; i++){
+			String line = infile.nextLine();
+			
+			StringTokenizer tokenizer = new StringTokenizer(line);
+			
+			char direction = tokenizer.nextToken().charAt(0);
+			int carFlowRate = Integer.parseInt(tokenizer.nextToken());
+			int truckFlowRate = Integer.parseInt(tokenizer.nextToken());
+			
+			IntersectionFlowRate.setFlowRate(direction, carFlowRate, truckFlowRate);
+		}
+	}
+	
+	
+	public void addVehicle(char direction, Vehicle x){
+		
+		switch (direction){
+		case 'N':
+			northbound.add(x);
+			break;
+		case 'S':
+			southbound.add(x);
+			break;
+		case 'E':
+			eastbound.add(x);
+			break;
+		case 'W':
+			westbound.add(x);
+			break;
+		default:
+			System.out.println("Incorrect Character.");
+			break;
+		}
+	}
+
+	public void addVehicles(){
+		//NORTH
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('N', 'c')) == 0.0){
+			addVehicle('N', new Vehicle('c', time));
+			if (northbound.size()==1) northbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('N', 't')) == 0.0){
+			addVehicle('N', new Vehicle('t', time));
+			if (northbound.size()==1) northbound.element().setHeadTime(time);
+		}
+		
+		//SOUTH
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('S', 'c')) == 0.0){
+			addVehicle('S', new Vehicle('c', time));
+			if (southbound.size()==1) southbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('S', 't')) == 0.0){
+			addVehicle('S', new Vehicle('t', time));
+			if (southbound.size()==1) southbound.element().setHeadTime(time);
+		}
+		
+		//EAST
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('E', 'c')) == 0.0){
+			addVehicle('E', new Vehicle('c', time));
+			if (eastbound.size()==1) eastbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('E', 't')) == 0.0){
+			addVehicle('E', new Vehicle('t', time));
+			if (eastbound.size()==1) eastbound.element().setHeadTime(time);
+		}
+		
+		//WEST
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('W', 'c')) == 0.0){
+			addVehicle('W', new Vehicle('c', time));
+			if (westbound.size()==1) westbound.element().setHeadTime(time);
+		}
+		if (time%(MINUTE/IntersectionFlowRate.getFlowRate('W', 't')) == 0.0){
+			addVehicle('W', new Vehicle('t', time));
+			if (westbound.size()==1) westbound.element().setHeadTime(time);
+		}
+	}
+	
+	public boolean hasTraffic(Queue<Vehicle> aQueue){
+		return !aQueue.isEmpty();
+	}
+	
+	public void activateNorthSouth(){
+		EWactive = false;
+		
+		if (NSactive)
+			NStime++;
+		else{
+			NSactive = true;
+			NStime = 1;
+		}
+		
+		//NORTH
+		if (northbound.peek() != null){
+			Vehicle current = northbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = northbound.remove();
+					if (northbound.peek() != null)
+						northbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		//SOUTH
+		if (southbound.peek() != null){
+			Vehicle current = southbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = southbound.remove();
+					if (southbound.peek() != null)
+							southbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		NSactive = true;
+
+	}
+	
+	public void activateEastWest(){
+		NSactive = false;
+		
+		if (EWactive)
+			EWtime++;
+		else{
+			EWactive = true;
+			EWtime = 1;
+		}
+		
+		//EAST
+		if (eastbound.peek() != null){
+			Vehicle current = eastbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = eastbound.remove();
+					if (eastbound.peek() != null)
+						eastbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		//WEST
+		if (westbound.peek() != null){
+			Vehicle current = westbound.peek();
+			if (time - current.getHeadTime() >= current.getTimeRequired()){
+					Vehicle temp = westbound.remove();
+					if (westbound.peek() != null)
+						westbound.element().setHeadTime(time);
+					results.addNode(temp);
+				}
+		}
+		
+		EWactive = true;
+
+	}
+
+	public void printBoard(){
+		
+		System.out.println();
+		
+		//First line; size of southbound
+		System.out.println("\tSB\t"+southbound.size());
+
+		//Copy Queues into Arrays
+		Vehicle[] southboundArray =southbound.toArray(new Vehicle[6]);
+		Vehicle[] eastboundArray = eastbound.toArray(new Vehicle[6]);
+		Vehicle[] westboundArray = westbound.toArray(new Vehicle[6]);
+		Vehicle[] northboundArray =northbound.toArray(new Vehicle[6]);
+		
+		//use switch statement...?
+		//Reverse ordered southbound
+		//East bound
+		for (int i=5; i>=0; i--){
+			if (i>1){
+				if (southboundArray[i]!=null)
+					System.out.print("\n\tx");
+				else
+					System.out.print("\n");
+			}
+
+			else if (i==1){
+				if (southboundArray[i]!=null)
+					System.out.print("\nEB\tx");
+				else
+					System.out.print("EB");
+			}
+			
+			else if (i==0){
+				if (southboundArray[i]!=null)
+					System.out.print("\n "+eastbound.size()+"\t"+southbound.element().getType());
+				else
+					System.out.print("\n "+eastbound.size());
+			}
+
+		}
+		
+		System.out.println();
+		System.out.print("  ");
+		
+		//Middle row of characters
+		//Reverse ordered eastbound; space; ordered westbound
+		for (int i=5; i>=0; i--){
+			if (eastboundArray[i]!=null){
+				if (i==0)
+					System.out.print(eastboundArray[i].getType());
+				else
+					System.out.print("x");
+			}
+			else System.out.print(" ");
+		}
+		System.out.print(" ");
+		for (int i=0; i<6; i++){
+			if (westboundArray[i]!=null){
+				if (i==0)
+					System.out.print(westboundArray[i].getType());
+				else
+					System.out.print("x");
+			}
+			else System.out.print(" ");
+		}
+
+		//Print ordered northbound
+		//Change WB count to right of northbound items
+		for (int i=0; i<6; i++){
+			if (i>1){
+				if (northboundArray[i]!=null)
+					System.out.print("\n\tx");
+				else
+					System.out.print("\n");
+			}
+
+			else if (i==0){
+				if (northboundArray[i]!=null)
+					System.out.print("\n\t"+northbound.element().getType()+"\tWB");
+				else
+					System.out.print("\n\t\tWB");
+			}
+			
+			else if (i==1){
+				if (northboundArray[i]!=null)
+					System.out.print("\n\tx\t "+westbound.size());
+				else
+					System.out.print("\n\t\t "+westbound.size());
+			}
+
+		}
+		//Last line; size of northbound
+		System.out.println("\n\n\tNB\t"+northbound.size());
+		
+		System.out.println();
+		System.out.println("at clock: " + time);
+		System.out.println("------------------");
+	}
+	
+	//WORKING HERE
+	public int getNumCars(){
+		int numCars = 0;
+		while (results.hasNext()){		
+			if(results.next().getType() == 'c')
+				numCars++;
+		}
+		return numCars;
+	}
+	
+	public int getNumTrucks(){
+		int numTrucks = 0;
+		while (results.hasNext()){		
+			if(results.next().getType() == 't')
+				numTrucks++;
+		}
+		return numTrucks;
+	}
+	
+	public float getAverageWaitTime(){
+		float totalWaitTime = 0;
+		while (results.hasNext()){		
+				totalWaitTime+=results.next().getWaitTime();
+		}
+		return totalWaitTime/results.length();
+	}
+	
+	public void printResults(){
+		System.out.println("The final results are: ");
+		System.out.println("The number of vehicles that passed through the intersection is: "+results.length());
+		System.out.println("The number of cars that passed through the intersection is: " +getNumCars());
+		System.out.println("The number of trucks that passed through the intersection is: " +getNumTrucks());
+		System.out.println("The average wait time for this intersection is: " +getAverageWaitTime());
+		
+	}
+	
+	
+	public static void main(String[] args){
+		TrafficSim x = new TrafficSim("input2.txt");
+	}
+}

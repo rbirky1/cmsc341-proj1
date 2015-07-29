@@ -1,0 +1,2518 @@
+
+	SB	2
+
+
+
+
+
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+
+
+
+
+
+	NB	2
+
+at clock: 0
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 2	c
+      xc cx    
+	c	WB
+		 2
+
+
+
+
+
+	NB	1
+
+at clock: 1
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 2
+      xc cx    
+		WB
+		 2
+
+
+
+
+
+	NB	0
+
+at clock: 2
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 2
+      xc cx    
+		WB
+		 2
+
+
+
+
+
+	NB	0
+
+at clock: 3
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 2
+      xc cx    
+		WB
+		 2
+
+
+
+
+
+	NB	0
+
+at clock: 4
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 2
+      xc cx    
+		WB
+		 2
+
+
+
+
+
+	NB	0
+
+at clock: 5
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+
+
+
+
+
+	NB	2
+
+at clock: 6
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 4	t
+    xxxc cxxx  
+	t	WB
+		 4
+
+
+
+
+
+	NB	1
+
+at clock: 7
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 4	t
+    xxxc cxxx  
+	t	WB
+		 4
+
+
+
+
+
+	NB	1
+
+at clock: 8
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 4
+    xxxc cxxx  
+		WB
+		 4
+
+
+
+
+
+	NB	0
+
+at clock: 9
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 4
+    xxxc cxxx  
+		WB
+		 4
+
+
+
+
+
+	NB	0
+
+at clock: 10
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 4
+    xxxc cxxx  
+		WB
+		 4
+
+
+
+
+
+	NB	0
+
+at clock: 11
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+
+
+
+
+
+	NB	2
+
+at clock: 12
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 6	t
+  xxxxxc cxxxxx
+	t	WB
+		 6
+
+
+
+
+
+	NB	1
+
+at clock: 13
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 6	t
+  xxxxxc cxxxxx
+	t	WB
+		 6
+
+
+
+
+
+	NB	1
+
+at clock: 14
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 6
+  xxxxxc cxxxxx
+		WB
+		 6
+
+
+
+
+
+	NB	0
+
+at clock: 15
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 6
+  xxxxxc cxxxxx
+		WB
+		 6
+
+
+
+
+
+	NB	0
+
+at clock: 16
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 6
+  xxxxxc cxxxxx
+		WB
+		 6
+
+
+
+
+
+	NB	0
+
+at clock: 17
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+
+
+
+
+
+	NB	2
+
+at clock: 18
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 8	t
+  xxxxxc cxxxxx
+	t	WB
+		 8
+
+
+
+
+
+	NB	1
+
+at clock: 19
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 8	t
+  xxxxxc cxxxxx
+	t	WB
+		 8
+
+
+
+
+
+	NB	1
+
+at clock: 20
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 8
+  xxxxxc cxxxxx
+		WB
+		 8
+
+
+
+
+
+	NB	0
+
+at clock: 21
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 8
+  xxxxxc cxxxxx
+		WB
+		 8
+
+
+
+
+
+	NB	0
+
+at clock: 22
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 8
+  xxxxxc cxxxxx
+		WB
+		 8
+
+
+
+
+
+	NB	0
+
+at clock: 23
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 10	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 10
+
+
+
+
+
+	NB	2
+
+at clock: 24
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 10	t
+  xxxxxc cxxxxx
+	t	WB
+		 10
+
+
+
+
+
+	NB	1
+
+at clock: 25
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 10	t
+  xxxxxc cxxxxx
+	t	WB
+		 10
+
+
+
+
+
+	NB	1
+
+at clock: 26
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 10
+  xxxxxc cxxxxx
+		WB
+		 10
+
+
+
+
+
+	NB	0
+
+at clock: 27
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 10
+  xxxxxc cxxxxx
+		WB
+		 10
+
+
+
+
+
+	NB	0
+
+at clock: 28
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 10
+  xxxxxc cxxxxx
+		WB
+		 10
+
+
+
+
+
+	NB	0
+
+at clock: 29
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 12	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 12
+
+
+
+
+
+	NB	2
+
+at clock: 30
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 11	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 11
+
+
+
+
+
+	NB	2
+
+at clock: 31
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 10	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 10
+
+
+
+
+
+	NB	2
+
+at clock: 32
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+
+
+
+
+
+	NB	2
+
+at clock: 33
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+
+
+
+
+
+	NB	2
+
+at clock: 34
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+
+
+
+
+
+	NB	2
+
+at clock: 35
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 36
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 37
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 38
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 39
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 40
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 41
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 42
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 43
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 44
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 45
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 46
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 47
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 48
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 49
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 50
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 51
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 52
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 53
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 54
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 55
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 56
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 1	c
+       t t     
+	c	WB
+	x	 1
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 57
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 1	c
+       t t     
+	c	WB
+	x	 1
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 58
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 0	c
+               
+	c	WB
+	x	 0
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 59
+------------------
+
+	SB	11
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	t
+      xc cx    
+	t	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	11
+
+at clock: 60
+------------------
+
+	SB	11
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	t
+      xc cx    
+	t	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	11
+
+at clock: 61
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 62
+------------------
+
+	SB	9
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	t
+      xc cx    
+	t	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	9
+
+at clock: 63
+------------------
+
+	SB	9
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	t
+      xc cx    
+	t	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	9
+
+at clock: 64
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 65
+------------------
+
+	SB	9
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	t
+    xxxc cxxx  
+	t	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	9
+
+at clock: 66
+------------------
+
+	SB	9
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	t
+    xxxc cxxx  
+	t	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	9
+
+at clock: 67
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 68
+------------------
+
+	SB	7
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	t
+    xxxc cxxx  
+	t	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	7
+
+at clock: 69
+------------------
+
+	SB	7
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	t
+    xxxc cxxx  
+	t	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	7
+
+at clock: 70
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 71
+------------------
+
+	SB	7
+
+	x
+	x
+	x
+	x
+EB	x
+ 6	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 6
+	x
+	x
+	x
+	x
+
+	NB	7
+
+at clock: 72
+------------------
+
+	SB	7
+
+	x
+	x
+	x
+	x
+EB	x
+ 6	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 6
+	x
+	x
+	x
+	x
+
+	NB	7
+
+at clock: 73
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 74
+------------------
+
+	SB	5
+
+
+	x
+	x
+	x
+EB	x
+ 6	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 6
+	x
+	x
+	x
+
+
+	NB	5
+
+at clock: 75
+------------------
+
+	SB	5
+
+
+	x
+	x
+	x
+EB	x
+ 6	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 6
+	x
+	x
+	x
+
+
+	NB	5
+
+at clock: 76
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 77
+------------------
+
+	SB	5
+
+
+	x
+	x
+	x
+EB	x
+ 8	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 8
+	x
+	x
+	x
+
+
+	NB	5
+
+at clock: 78
+------------------
+
+	SB	5
+
+
+	x
+	x
+	x
+EB	x
+ 8	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 8
+	x
+	x
+	x
+
+
+	NB	5
+
+at clock: 79
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 80
+------------------
+
+	SB	3
+
+
+
+
+	x
+EB	x
+ 8	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 8
+	x
+
+
+
+
+	NB	3
+
+at clock: 81
+------------------
+
+	SB	3
+
+
+
+
+	x
+EB	x
+ 8	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 8
+	x
+
+
+
+
+	NB	3
+
+at clock: 82
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+
+
+
+
+
+	NB	2
+
+at clock: 83
+------------------
+
+	SB	3
+
+
+
+
+	x
+EB	x
+ 10	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 10
+	x
+
+
+
+
+	NB	3
+
+at clock: 84
+------------------
+
+	SB	3
+
+
+
+
+	x
+EB	x
+ 10	t
+  xxxxxc cxxxxx
+	t	WB
+	x	 10
+	x
+
+
+
+
+	NB	3
+
+at clock: 85
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 10	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 10
+
+
+
+
+
+	NB	2
+
+at clock: 86
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 10	t
+  xxxxxc cxxxxx
+	t	WB
+		 10
+
+
+
+
+
+	NB	1
+
+at clock: 87
+------------------
+
+	SB	1
+
+
+
+
+EB
+ 10	t
+  xxxxxc cxxxxx
+	t	WB
+		 10
+
+
+
+
+
+	NB	1
+
+at clock: 88
+------------------
+
+	SB	0
+
+
+
+
+EB
+ 10
+  xxxxxc cxxxxx
+		WB
+		 10
+
+
+
+
+
+	NB	0
+
+at clock: 89
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 11	c
+  xxxxxt txxxxx
+	c	WB
+	x	 11
+
+
+
+
+
+	NB	2
+
+at clock: 90
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 11	c
+  xxxxxt txxxxx
+	c	WB
+	x	 11
+
+
+
+
+
+	NB	2
+
+at clock: 91
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 10	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 10
+
+
+
+
+
+	NB	2
+
+at clock: 92
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+
+
+
+
+
+	NB	2
+
+at clock: 93
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+
+
+
+
+
+	NB	2
+
+at clock: 94
+------------------
+
+	SB	2
+
+
+
+
+
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+
+
+
+
+
+	NB	2
+
+at clock: 95
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 96
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 9	c
+  xxxxxt txxxxx
+	c	WB
+	x	 9
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 97
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 8	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 8
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 98
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 99
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 100
+------------------
+
+	SB	4
+
+
+
+	x
+	x
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+	x
+	x
+
+
+
+	NB	4
+
+at clock: 101
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 102
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 7	c
+  xxxxxt txxxxx
+	c	WB
+	x	 7
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 103
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 6	c
+  xxxxxc cxxxxx
+	c	WB
+	x	 6
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 104
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 105
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 106
+------------------
+
+	SB	6
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	6
+
+at clock: 107
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 108
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 5	c
+   xxxxt txxxx 
+	c	WB
+	x	 5
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 109
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 4	c
+    xxxc cxxx  
+	c	WB
+	x	 4
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 110
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 111
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 112
+------------------
+
+	SB	8
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	8
+
+at clock: 113
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 114
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 3	c
+     xxt txx   
+	c	WB
+	x	 3
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 115
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	c
+      xc cx    
+	c	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 116
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 1	c
+       t t     
+	c	WB
+	x	 1
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 117
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 1	c
+       t t     
+	c	WB
+	x	 1
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 118
+------------------
+
+	SB	10
+
+	x
+	x
+	x
+	x
+EB	x
+ 0	c
+               
+	c	WB
+	x	 0
+	x
+	x
+	x
+	x
+
+	NB	10
+
+at clock: 119
+------------------
+
+	SB	11
+
+	x
+	x
+	x
+	x
+EB	x
+ 2	t
+      xc cx    
+	t	WB
+	x	 2
+	x
+	x
+	x
+	x
+
+	NB	11
+
+at clock: 120
+------------------
+The final results are: 
+The number of vehicles that passed through the intersection is: 142
+The number of cars that passed through the intersection is: 76
+The number of trucks that passed through the intersection is: 66
+The average wait time for this intersection is: 15.492958

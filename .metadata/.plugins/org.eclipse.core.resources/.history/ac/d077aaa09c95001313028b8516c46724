@@ -1,0 +1,99 @@
+package proj1;
+
+import java.io.*;
+import java.util.*;
+
+public class TrafficSim {
+	
+	Scanner infile;
+	
+	//Choose type of queue (Queue is an interface, not an Object)
+	private PriorityQueue<Vehicle> northbound;
+	private PriorityQueue<Vehicle> southbound;
+	private PriorityQueue<Vehicle> eastbound;
+	private PriorityQueue<Vehicle> westbound;
+	private LinkedList<Vehicle> exitedVehicles;
+	
+
+	public TrafficSim(String aFile){
+		
+		readFromFile(aFile);
+
+		//Initialize Queues
+		northbound = new PriorityQueue<Vehicle>();
+		southbound = new PriorityQueue<Vehicle>();
+		eastbound = new PriorityQueue<Vehicle>();
+		westbound = new PriorityQueue<Vehicle>();
+		
+		//Initialize Custom LinkedList
+		exitedVehicles = new LinkedList<Vehicle>();
+		
+	}
+	
+	
+	public void readFromFile(String aFile){
+		try {
+			infile = new Scanner(new FileReader(aFile));
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found.");
+			e.printStackTrace();
+			System.exit(0);
+		}
+		
+		while (infile.hasNextLine()){
+			String line = infile.nextLine();
+			
+			StringTokenizer tokenizer = new StringTokenizer(line);
+			while (tokenizer.hasMoreTokens())
+				System.out.print(tokenizer.nextToken());
+			
+			char direction = tokenizer.nextToken().charAt(0);
+			
+			int numCars = Integer.parseInt(tokenizer.nextToken());
+			for (int i=0; i<numCars; i++){
+				addVehicle(direction, new Vehicle('c', 1));
+			}
+			
+			int numTrucks = Integer.parseInt(tokenizer.nextToken());
+			for (int i=0; i<numTrucks; i++){
+				addVehicle(direction, new Vehicle('t', 2));
+			}
+		}
+	}
+	
+	
+	public void addVehicle(char direction, Vehicle x){
+		
+		switch (direction){
+		case 'N':
+			northbound.add(x);
+			break;
+		case 'S':
+			southbound.add(x);
+			break;
+		case 'E':
+			eastbound.add(x);
+			break;
+		case 'W':
+			westbound.add(x);
+			break;
+		default:
+			System.out.println("Incorrect Character.");
+			break;
+		}
+	}
+	
+	
+	public void printBoard(){
+		System.out.println(northbound);
+	}
+	
+	
+	public static void main(String[] args){
+		TrafficSim x = new TrafficSim("input1.txt");
+		
+		//x.printBoard();
+		
+		//All the work here, including adding exited vehicles to LinkedList
+	}
+}

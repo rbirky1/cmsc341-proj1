@@ -1,0 +1,125 @@
+CMSC341 Project 1 Gradesheet 
+-----------------------------------------------------------------
+Student ID: rbirky1
+
+Max grade: 100 
+Raw grade: 79 
+Late penalty: 0
+Total grade: 79 
+
+(Total grade = Raw grade - Late penalty)
+
+
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+X   None
+
+   No submission (skip rest of this rubric) 0
+
+   Program does not compile with any of the test programs
+      and/or crashes without producing any output.
+      Grading based on effort
+
+      Removing one or two minor bugs will fix this project. (56-65)
+      Significant progress made, but major rewrite is necessary. (46-55)
+      Not much progress made. (36-45)
+      Barely started coding. (0-35)
+
+      Score = 
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+II. Submission Errors
+
+   Wrong package name: -6
+   No build file: -6
+   Additional tweaking required for compilation: -6 to -10
+
+   Other submission errors: (specify)
+
+
+-----------------------------------------------------------------
+III. Correctness
+
+
+   Implementation
+      #1 Does not use Java Queue Implementation or uses a different data structure -30
+      #2 Does not use user-defined LinkedList for results -30 (skip rest of Implementation)
+      #3 Does not use singly Linked Lists -3	
+
+
+   Running with Proj1Test
+
+      Program passes Proj1Test
+
+      #4 Vehicles are not removed from "Green" queue - 50 pts (skip rest of THIS section)
+      #5 Program does not read input from file - 30 pts (skip rest of THIS section)
+      #6 Vehicles are not added to traffic queues - 30 pts
+      #7 Vehicles are not added to resulting Linked List- 15 pts 
+      #8 North/South is not GREEN for minimum 30 seconds. -5pts
+      #9 East/West is not GREEN for minimum 10 seconds. -5pts
+      #10 East/West does not turn RED early, when there is no traffic on either side. -5pts
+      #11 North/South does not stay GREEN, when East/West does not have traffic. -5pts
+      #12 Intersection snapshot not shown after every second -5
+      #13 Truck should appear twice in snapshot since it takes 2 seconds to clear  -5pts
+X      #14 Error in average wait time -5
+X      #15 Error in no. of cars that crossed intersection -3
+X      #16 Error in no. of trucks that crossed intersection -3
+
+
+      #17 Intersection snapshot not displayed properly -5
+
+      #18 Program does not terminate after 2 minute simulation -3
+      #19 Program crashes without giving output -30
+      
+   
+   Program fails all/many tests or crashes without producing output.
+   Correctness graded on effort (skip efficiency):
+
+      Lots of effort, 1 or 2 bugs from working.  70pts
+      Lots of effort, but still needs lots of work.  65pts
+      Medium effort, needs major work for completion.  50pts
+      Light effort, not much accomplished.  35pts
+      Minimal effort, barely stared coding.  10pts
+
+
+X   Other errors (specify):
+	Traffic Light change not mentioned: -10
+
+
+-----------------------------------------------------------------
+
+III. Efficiency (25 point deduction cap)
+
+   Slower than O(n)  -10
+
+
+-----------------------------------------------------------------
+IV. Design
+
+X   Result list class design is clear, simple and logical.
+   
+   Result list design is awkward  -3
+      Specify
+
+   
+
+-----------------------------------------------------------------
+V. Documentation
+
+X   Documentation is sufficient and reasonable
+
+   Documentation is terse and not meaningful -3pts
+
+   Almost no documentation -5pts
+
+
+-----------------------------------------------------------------
+
+
+
